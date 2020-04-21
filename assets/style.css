@@ -1,0 +1,238 @@
+* {
+    /* position: static important !important; */
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 26px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 24px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(81, 102, 170);
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+body {
+    background-color: rgb(232, 229, 247);
+}
+
+.big-blue-box {
+    position: relative;
+    top: 10px;
+    height: 350px;
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgb(81, 102, 170);
+}
+
+.medium-blue-box {
+    position: relative;
+    border: 1px solid rgb(54, 53, 53);
+    height: 175px;
+    width: 175px;
+    border-radius: 5px;
+    top: 200px;
+    left: 17px;
+    background-color: rgb(81, 102, 170);
+    /* background-image: url(./mememe.jpg); */
+    /* object-fit: cover; */
+}
+
+#Social-Networking-Site-Header {
+    position: relative;
+    height: 150px;
+    width: 250px;
+    top: 80px;
+    left: 210px;
+    margin: 0 0;
+    padding: 0 0;
+    line-height: 10pt;
+}
+
+ol {
+    float: right;
+}
+
+button {
+    /* position: inline-box */
+    padding: 7px 16px;
+    margin: 0% 0%;
+    border-radius: 4px;
+}
+
+.like-button {
+    /* border: 2px red solid; */
+    color: rgb(51, 48, 48);
+    position: relative;
+    left: 500px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    height: 45px;
+    width: 300px;
+    top: -60px;
+    float: left;
+}
+
+.action-buttons {
+    /* border: 2px red solid; */
+    color: rgb(51, 48, 48);
+    position: relative;
+    /* border-spacing: 0px; */
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    height: 45px;
+    width: 300px;
+    top: -60px;
+    float: right;
+}
+
+.nav-buttons {
+    position: relative;
+    top: 10px;
+    box-sizing: border-box;
+    height: 53px;
+    width: 850px;
+    /* border: 2px red solid; */
+    margin: 0 auto;
+}
+
+#buttons2 {
+    /* border: 2px black solid; */
+    position: relative;
+    top: -38px;
+    z-index: -1;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(26, 25, 25);
+    font-size: 16px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 850px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+li1 {
+    border-bottom: 4px rgb(60, 80, 146) solid;
+    font-weight: bold;
+    position: relative;
+    left: 175px;
+    display: inline;
+    /* float: left; */
+    padding: 15px 0px 8px 0px;
+}
+
+li2 {
+    border-right: 2px rgb(230, 219, 219) solid;
+    position: relative;
+    left: 175px;
+    display: inline;
+    /* float: left; */
+    padding: 15px 10px 0px 20px;
+}
+
+li3 {
+    border-right: 2px  rgb(230, 219, 219) solid;
+    position: relative;
+    left: 175px;
+    display: inline;
+    /* float: left; */
+    padding: 15px 10px 0px 10px;
+}
+
+li4 {
+    border-right: 2px  rgb(230, 219, 219) solid;
+    position: relative;
+    left: 175px;
+    display: inline;
+    /* float: left; */
+    padding: 15px 10px 0px 10px;
+}
+
+li5 {
+    position: relative;
+    left: 175px;
+    display: inline;
+    /* float: left; */
+    padding: 15px 50px 15px 10px;
+}
+
+span {
+    content: "\1F893";
+    line-height: 3px;
+    font-size: 528;
+}
+
+/* start edits */
+
+main {
+
+	box-sizing: border-box;
+
+	/* border: 1px dotted black; */
+	height: 2000px;
+	width: 850px;
+	margin: 0 auto;
+	margin-top: 10px;
+
+}
+
+.column-left {
+	/* border: 1px dotted brown; */
+	height: 1500px;
+	width: 328px;
+	float: left;
+}
+
+.column-right {
+	/* border: 1px dotted green; */
+	height: 1500px;
+	width: 512px;
+	float: right;
+}
+
+.card {
+	/* border: 1px dotted purple; */
+	width: 328px;
+	background-color: whitesmoke;
+	border-radius: 1.75%;
+    padding-top: 8px;
+    margin-top: 10px;
+}
+
+.card h2 {
+	border-top: 1px solid lightgrey;
+	font-size: 18px;
+    font-family: sans-serif;
+    color: black
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(60, 80, 146);
+}
